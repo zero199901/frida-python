@@ -18,14 +18,14 @@ GENERATED_PACKAGE_FILES = ["__init__.py", "aio.py", "_frida.pyi"]
 
 def main():
     setup(
-        name="frida",
+        name="florida-frida",
         version=detect_version(),
-        description="Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers",
+        description="Dynamic instrumentation bindings for Florida",
         long_description=compute_long_description(),
         long_description_content_type="text/markdown",
-        author="Frida Developers",
-        author_email="oleavr@frida.re",
-        url="https://frida.re",
+        author="Florida Developers",
+        author_email="noreply@florida.dev",
+        url="https://github.com/zero199901/Florida",
         install_requires=["typing_extensions; python_version<'3.11'"],
         python_requires=">=3.7",
         license="wxWindows Library Licence, Version 3.1",
